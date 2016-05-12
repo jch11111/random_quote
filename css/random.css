@@ -1,0 +1,15 @@
+body {
+    background-size: cover;
+    background-image: 
+        linear-gradient(
+                rgba(120, 80, 150, .75),
+                rgba(120, 80, 150, .75)
+        ), 
+        url("/img/tunnel.jpg");
+}
+
+#quote {
+    display: none;
+    color: white;
+    margin: 25% auto;
+}
