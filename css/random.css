@@ -8,7 +8,7 @@ body {
         url("/img/tunnel.jpg");
 }
 
-#quote {
+#divQuote {
     display: none;
     color: white;
     margin: 25% auto;
