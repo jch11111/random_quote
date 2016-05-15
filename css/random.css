@@ -1,3 +1,5 @@
+
+
 body {
     background-size: cover;
     background-image: 
@@ -11,5 +13,27 @@ body {
 #divQuote {
     display: none;
     color: white;
-    margin: 25% auto;
+    margin: 25% auto 0;
+    text-align: center;
+}
+
+#divButton {
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+button {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #888;
+    background-image:
+        linear-gradient(
+            rgba(120, 80, 150, .15),
+            rgba(120, 80, 150, .15)
+        );
+}
+
+button:focus {
+  outline: none;
 }
