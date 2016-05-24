@@ -87,11 +87,19 @@ var random = (function() {
             $("button").click(function() {
                 button_click();
             });
+            $("#divTweet a").click(function() {
+                divTweet_click();
+            });
         })
     };
 
     function button_click() {
         showQuote();
+    }
+
+    function divTweet_click() {
+        var twitterUrl = "https://twitter.com/intent/tweet?text=" + encodeURIComponent($("#divQuote").text());
+        window.open(twitterUrl);
     }
 
     function showQuote() {
@@ -103,9 +111,6 @@ var random = (function() {
                 $("#divQuote").fadeIn("slow")
             }
         );
-        //$("#divQuote").fadeOut("slow");
-        
-        //$("#divQuote").fadeIn("slow");
     }
 
     function getQuote() {

@@ -23,7 +23,17 @@ body {
     text-align: center;
 }
 
+#divTweet {
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+#divTweet a {
+    color: #fff;
+}
+
 button {
+    cursor: pointer;
     border-radius: 50%;
     width: 70px;
     height: 70px;
